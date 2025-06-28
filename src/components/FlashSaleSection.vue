@@ -28,6 +28,7 @@
       @mouseup="endDrag"
       @mouseleave="endDrag"
     >
+    <router-link to="/search-day" class="text-decoration-none">
       <div class="flash-sale-card">
         <div class="card">
           <img
@@ -78,64 +79,10 @@
           </div>
         </div>
       </div>
+    </router-link>
 
-      <!-- Copy this block for more cards -->
-      <div class="flash-sale-card">
-        <div class="card">
-          <img
-            src="/img/flashsale1.png"
-            class="card-img-top"
-            alt="Tour Image"
-          />
-          <div class="card-body">
-            <h5 class="card-title">
-              COMBO Hà Nội - Bangkok - Pattaya - Chợ nổi 4 mùa - Khao Chee Chan
-              - Muang Boran
-            </h5>
 
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="d-flex justify-content-start">
-                <img
-                  src="/ic_svg/calendar.svg"
-                  alt="ic-calendar"
-                  class="w-4 h-8"
-                />
-                <div class="date">15/9</div>
-              </div>
-
-              <div>
-                <span
-                  class="text-decoration-line-through text-muted price-origin"
-                  >13,863,000₫</span
-                >
-                <span class="text-danger fw-bold price-sale">12,400,000₫</span>
-              </div>
-            </div>
-            <div class="sale-remaining">
-              <span
-                class="fw-bold"
-                style="width: 40%; background-color: #ee0033"
-                >Còn: 20</span
-              >
-            </div>
-            <div class="icon-flashsale">
-              <div><img src="/ic_svg/ic_Vemaybay.svg" alt="" /></div>
-              <div><img src="/ic_svg/ic_Vemaybay (1).svg" alt="" /></div>
-              <div><img src="/ic_svg/ic_Vemaybay (2).svg" alt="" /></div>
-              <div><img src="/ic_svg/ic_Vemaybay (3).svg" alt="" /></div>
-            </div>
-            <div class="discount">- 40%</div>
-            <span class="duration">
-              <img
-                src="/ic_svg/icon time.svg"
-                alt=""
-                class="icon-duration"
-              /><span>3N2Đ</span>
-            </span>
-          </div>
-        </div>
-      </div>
-
+    <router-link to="/search-day" class="text-decoration-none">
       <div class="flash-sale-card">
         <div class="card">
           <img
@@ -186,6 +133,60 @@
           </div>
         </div>
       </div>
+    </router-link>
+
+    <router-link to="/search-day" class="text-decoration-none">
+      <div class="flash-sale-card">
+        <div class="card">
+          <img
+            src="/img/flashsale1.png"
+            class="card-img-top"
+            alt="Tour Image"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              COMBO Hà Nội - Bangkok - Pattaya - Chợ nổi 4 mùa - Khao Chee Chan
+              - Muang Boran
+            </h5>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex justify-content-start">
+                <img
+                  src="/ic_svg/calendar.svg"
+                  alt="ic-calendar"
+                  class="w-4 h-8"
+                />
+                <div class="date">15/9</div>
+              </div>
+
+              <div>
+                <span
+                  class="text-decoration-line-through text-muted price-origin"
+                  >13,863,000₫</span
+                >
+                <span class="text-danger fw-bold price-sale">12,400,000₫</span>
+              </div>
+            </div>
+            <div class="sale-remaining">
+              <span class="fw-bold">Còn: 20</span>
+            </div>
+            <div class="icon-flashsale">
+              <div><img src="/ic_svg/ic_Vemaybay.svg" alt="" /></div>
+              <div><img src="/ic_svg/ic_Vemaybay (1).svg" alt="" /></div>
+              <div><img src="/ic_svg/ic_Vemaybay (2).svg" alt="" /></div>
+              <div><img src="/ic_svg/ic_Vemaybay (3).svg" alt="" /></div>
+            </div>
+            <div class="discount">- 40%</div>
+            <span class="duration">
+              <img
+                src="/ic_svg/icon time.svg"
+                alt=""
+                class="icon-duration"
+              /><span>3N2Đ</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </router-link>
     </div>
   </section>
 </template>

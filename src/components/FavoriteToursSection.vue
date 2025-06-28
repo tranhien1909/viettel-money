@@ -72,7 +72,7 @@
     </router-link>
 
 
-      <!-- Copy this block for more cards -->
+
         <router-link to="/search-day" class="text-decoration-none">
       <div class="flash-sale-card">
         <div class="card">
